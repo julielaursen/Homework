@@ -1,0 +1,41 @@
+
+		
+		
+def main():
+    date = input("Please enter a date in the format mm/dd/yy: " )
+
+    #validate the date
+    
+    month = date[:2]
+    month = int(month)
+    day = date[3:5]
+    day = int(day)
+    year = date[6:]
+    size = len(year)
+    year = int(year)
+		
+correct_day = False
+correct_month = False
+correct_year = False
+correct_size =False
+
+if size == 2:
+	correct_size = True
+
+if (month < 12) or (month > 1):
+	correct_month = True
+	
+if (day < 32) or (day > 1):
+	correct_day = True
+	
+if year == 13:
+	correct_year = True
+	
+if correct_length and correct_day and correct_month and correct_size:
+	isValid = True
+else:
+	isValid = False
+	
+return the is valid variable
+	
+	

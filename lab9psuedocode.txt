@@ -1,0 +1,20 @@
+valid_date function:
+	set correct_length variable to false
+	set day to false
+	set month to false
+	set year to false
+	set year size to false
+	if the year is 2 characters:
+		set correct_length to true
+	if day is < 31 and > 1 
+		set Correct day to true
+	if month is < 13 and > 1
+		set correct_month to true
+		
+if correct_length and correct_day and correct_onth:
+	set is valid to true
+else:
+	set is valid to false
+	
+return the is valid variable
+		

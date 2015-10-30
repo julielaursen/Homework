@@ -1,0 +1,24 @@
+Ask for how many miles you want converted to kilometers
+User inputs number of miles
+converted kilometers = miles * 1.6
+print miles equals converted kilometers
+
+Ask for the temperature in farenheit
+User inputs temp in farenheit
+converted celsius = (fahrenheit - 32) * 5/9
+print fahrenheit equals converted celsius
+
+Ask for number of gallons
+User inputs number in gallons
+converted liters = gallons * 3.9
+print gallons equals converted liters
+
+Ask for number of pounds
+User inputs number of pounds
+Converted kilograms = pounds * .45
+print pounds equals converted kilograms
+
+Ask for number of inches
+User inputs inches
+Converted centimeters = inches * 2.54
+print inches equals converted centimeters
